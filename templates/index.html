@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Découvrez les jours fériés du Maroc</h1>
+  <p>Dates, histoire, traditions et un assistant IA pour répondre à toutes vos questions.</p>
+  <div class="actions">
+    <a class="btn" href="{{ url_for('calendar', year=year) }}">Voir le calendrier {{ year }}</a>
+    <a class="btn ghost" href="{{ url_for('chat_page') }}">Poser une question à l'IA</a>
+  </div>
+</section>
+<h2>Prochaines fêtes</h2>
+<div class="grid">
+  {% for h in upcoming %}{% include "_card.html" %}{% endfor %}
+</div>
+<h2>Fêtes nationales ou religieuses ?</h2>
+<div class="two">
+  <div class="panel"><span class="badge nationale">Nationale</span>
+    <p>Liée à l'histoire du pays. Date fixe dans le calendrier grégorien (ex. 18 novembre).</p></div>
+  <div class="panel"><span class="badge religieuse">Religieuse</span>
+    <p>Liée à l'islam. Calendrier hégirien (lunaire) : la date change chaque année et dépend de l'observation du croissant.</p></div>
+</div>
+{% endblock %}

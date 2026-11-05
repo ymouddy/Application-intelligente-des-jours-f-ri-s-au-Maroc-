@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Calendrier {{ year }}{% endblock %}
+{% block content %}
+<h1>Calendrier des jours fériés {{ year }}</h1>
+<form class="filters" method="get">
+  <label>Année
+    <select name="year" onchange="this.form.submit()">
+      {% for y in years %}<option value="{{ y }}" {{ 'selected' if y == year }}>{{ y }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Type
+    <select name="type" onchange="this.form.submit()">
+      {% for v, l in [('toutes','Toutes'),('nationale','Nationales'),('religieuse','Religieuses')] %}
+        <option value="{{ v }}" {{ 'selected' if v == kind }}>{{ l }}</option>
+      {% endfor %}
+    </select>
+  </label>
+</form>
+<p class="notice">⚠ Dates des fêtes religieuses : <strong>prévisionnelles</strong> (observation lunaire).</p>
+{% for m in range(1, 13) %}
+  {% set month_items = items | selectattr('month', 'equalto', m) | list %}
+  {% if month_items %}
+    <h2 class="month">{{ mois[m-1]|capitalize }}</h2>
+    <div class="grid">
+      {% for h in month_items %}{% include "_card.html" %}{% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+{% endblock %}

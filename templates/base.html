@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Jours fériés du Maroc{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="{{ url_for('home') }}">🇲🇦 Jours fériés du Maroc</a>
+    <nav>
+      <a href="{{ url_for('home') }}">Accueil</a>
+      <a href="{{ url_for('calendar') }}">Calendrier</a>
+      <a href="{{ url_for('chat_page') }}">Chatbot IA</a>
+    </nav>
+  </header>
+  <main class="container">
+    {% block content %}{{ content }}{% endblock %}
+  </main>
+  <footer class="footer">
+    Les dates des fêtes religieuses sont <strong>prévisionnelles</strong> : l'annonce officielle
+    dépend de l'observation du croissant lunaire (ministère des Habous et des Affaires islamiques).
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

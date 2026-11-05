@@ -1,0 +1,461 @@
+[
+  {
+    "slug": "nouvel-an",
+    "name_fr": "Nouvel An",
+    "name_ar": "رأس السنة الميلادية",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 1,
+      "day": 1,
+      "duration": 1
+    },
+    "emoji": "🎆",
+    "color": "#1d3557",
+    "image": "images/nouvel-an.svg",
+    "origin": "Le 1er janvier marque le début de l'année du calendrier grégorien, utilisé au Maroc pour la vie civile et administrative.",
+    "meaning": "Moment symbolique de bilan et de nouveaux départs.",
+    "importance": "Jour férié civil : il ouvre l'année administrative, scolaire et économique.",
+    "traditions": [
+      "Repas en famille ou entre amis",
+      "Vœux de « Sana Sa'ida » (bonne année)",
+      "Soirées et feux d'artifice dans les grandes villes"
+    ],
+    "caption": "Illustration festive du passage à la nouvelle année.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Agence Marocaine de Presse (MAP)",
+        "url": "https://www.mapexpress.ma"
+      }
+    ]
+  },
+  {
+    "slug": "manifeste-independance",
+    "name_fr": "Manifeste de l'Indépendance",
+    "name_ar": "ذكرى تقديم وثيقة الاستقلال",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 1,
+      "day": 11,
+      "duration": 1
+    },
+    "emoji": "📜",
+    "color": "#2a6f4e",
+    "image": "images/manifeste-independance.svg",
+    "origin": "Le 11 janvier 1944, des nationalistes marocains, dont le parti de l'Istiqlal, remettent au sultan Mohammed V et aux autorités du protectorat un document réclamant l'indépendance du pays.",
+    "meaning": "Premier texte officiel et public exigeant l'indépendance : il structure le mouvement national.",
+    "importance": "Il rappelle le courage des militants et le début de la voie politique vers l'indépendance obtenue en 1956.",
+    "traditions": [
+      "Cérémonies officielles et hommages aux résistants",
+      "Conférences et émissions historiques",
+      "Discours commémoratifs"
+    ],
+    "caption": "Symbole du manifeste réclamant l'indépendance du Maroc.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Encyclopédie Britannica – Maroc",
+        "url": "https://www.britannica.com/place/Morocco"
+      }
+    ]
+  },
+  {
+    "slug": "yennayer",
+    "name_fr": "Nouvel An amazigh (Yennayer)",
+    "name_ar": "رأس السنة الأمازيغية",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 1,
+      "day": 14,
+      "duration": 1
+    },
+    "emoji": "🌾",
+    "color": "#c1440e",
+    "image": "images/yennayer.svg",
+    "origin": "Yennayer célèbre le début de l'année du calendrier agraire amazigh, lié aux cycles de la terre. Le Maroc l'a déclaré jour férié officiel en 2023 ; il est observé depuis janvier 2024.",
+    "meaning": "Fête de la terre, de l'abondance et de l'identité amazighe, dimension reconnue par la Constitution de 2011.",
+    "importance": "Reconnaissance officielle de la culture amazighe, composante essentielle de l'identité marocaine.",
+    "traditions": [
+      "Grand repas familial (couscous aux sept légumes, selon les régions)",
+      "Plats à base de céréales et de fruits secs",
+      "Chants, danses (ahwach, ahidous) et contes"
+    ],
+    "caption": "Table de fête et champs : l'abondance de la terre.",
+    "sources": [
+      {
+        "title": "IRCAM – Institut Royal de la Culture Amazighe",
+        "url": "https://www.ircam.ma"
+      },
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      }
+    ]
+  },
+  {
+    "slug": "fete-du-travail",
+    "name_fr": "Fête du Travail",
+    "name_ar": "عيد الشغل",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 5,
+      "day": 1,
+      "duration": 1
+    },
+    "emoji": "⚒️",
+    "color": "#b5179e",
+    "image": "images/fete-du-travail.svg",
+    "origin": "Journée internationale des travailleurs, née à la fin du XIXᵉ siècle des luttes pour la journée de huit heures. Le Maroc la célèbre officiellement.",
+    "meaning": "Hommage aux travailleurs et à leurs droits.",
+    "importance": "Elle met en avant le dialogue social, les syndicats et les droits des salariés.",
+    "traditions": [
+      "Défilés et rassemblements syndicaux",
+      "Discours des centrales syndicales",
+      "Repos et activités en famille"
+    ],
+    "caption": "Travailleurs et outils : symbole du monde du travail.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      }
+    ]
+  },
+  {
+    "slug": "fete-du-trone",
+    "name_fr": "Fête du Trône",
+    "name_ar": "عيد العرش",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 7,
+      "day": 30,
+      "duration": 1
+    },
+    "emoji": "👑",
+    "color": "#9d0208",
+    "image": "images/fete-du-trone.svg",
+    "origin": "Elle commémore l'accession au trône du roi Mohammed VI, le 30 juillet 1999, après le décès de Hassan II.",
+    "meaning": "Célébration du lien entre le roi et le peuple, symbolisé par la Bay'a (allégeance).",
+    "importance": "Fête nationale majeure : elle marque la continuité de la monarchie marocaine.",
+    "traditions": [
+      "Discours royal à la nation",
+      "Décorations de rues et drapeaux",
+      "Cérémonies officielles, grâces royales"
+    ],
+    "caption": "Couronne et drapeaux : la fête du Trône.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Agence Marocaine de Presse (MAP)",
+        "url": "https://www.mapexpress.ma"
+      }
+    ]
+  },
+  {
+    "slug": "oued-eddahab",
+    "name_fr": "Allégeance de Oued Eddahab",
+    "name_ar": "ذكرى استرجاع إقليم وادي الذهب",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 8,
+      "day": 14,
+      "duration": 1
+    },
+    "emoji": "🏜️",
+    "color": "#e09f3e",
+    "image": "images/oued-eddahab.svg",
+    "origin": "Le 14 août 1979, des représentants de la région de Oued Eddahab prêtent allégeance au roi Hassan II, après le retrait de la Mauritanie de la zone.",
+    "meaning": "Commémore le retour de la région au Maroc, dans le cadre de l'achèvement de l'intégrité territoriale.",
+    "importance": "Rappelle l'attachement à l'unité nationale et aux provinces du Sud.",
+    "traditions": [
+      "Cérémonies officielles à Dakhla et dans le Sud",
+      "Festivités culturelles locales (musique hassani)",
+      "Discours commémoratifs"
+    ],
+    "caption": "Paysages désertiques des provinces du Sud.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Agence Marocaine de Presse (MAP)",
+        "url": "https://www.mapexpress.ma"
+      }
+    ]
+  },
+  {
+    "slug": "revolution-roi-peuple",
+    "name_fr": "Révolution du Roi et du Peuple",
+    "name_ar": "ذكرى ثورة الملك والشعب",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 8,
+      "day": 20,
+      "duration": 1
+    },
+    "emoji": "✊",
+    "color": "#6a040f",
+    "image": "images/revolution-roi-peuple.svg",
+    "origin": "Le 20 août 1953, les autorités du protectorat exilent le sultan Mohammed V (d'abord en Corse, puis à Madagascar). Les Marocains se mobilisent massivement pour son retour.",
+    "meaning": "Union du trône et du peuple dans la résistance, qui conduit au retour du roi en 1955.",
+    "importance": "Elle fait partie des grands moments fondateurs de la lutte pour l'indépendance.",
+    "traditions": [
+      "Discours royal à la nation",
+      "Hommages aux résistants",
+      "Programmes historiques à la télévision et à la radio"
+    ],
+    "caption": "Poing levé : symbole de la résistance.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Encyclopédie Britannica – Maroc",
+        "url": "https://www.britannica.com/place/Morocco"
+      }
+    ]
+  },
+  {
+    "slug": "fete-de-la-jeunesse",
+    "name_fr": "Fête de la Jeunesse",
+    "name_ar": "عيد الشباب",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 8,
+      "day": 21,
+      "duration": 1
+    },
+    "emoji": "🎈",
+    "color": "#0077b6",
+    "image": "images/fete-de-la-jeunesse.svg",
+    "origin": "Elle coïncide avec l'anniversaire du roi Mohammed VI (né le 21 août 1963). Avant 1999, la Fête de la Jeunesse était liée à l'anniversaire de Hassan II.",
+    "meaning": "Journée consacrée à la jeunesse, considérée comme l'avenir du pays.",
+    "importance": "Elle valorise l'éducation, l'emploi et l'engagement des jeunes.",
+    "traditions": [
+      "Activités sportives, culturelles et associatives",
+      "Rencontres et initiatives pour les jeunes",
+      "Messages royaux"
+    ],
+    "caption": "Jeunes en fête : énergie et avenir.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Agence Marocaine de Presse (MAP)",
+        "url": "https://www.mapexpress.ma"
+      }
+    ]
+  },
+  {
+    "slug": "marche-verte",
+    "name_fr": "Anniversaire de la Marche Verte",
+    "name_ar": "ذكرى المسيرة الخضراء",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 11,
+      "day": 6,
+      "duration": 1
+    },
+    "emoji": "🌿",
+    "color": "#2d6a4f",
+    "image": "images/marche-verte.svg",
+    "origin": "Le 6 novembre 1975, à l'appel de Hassan II, environ 350 000 Marocains désarmés, Coran en main, franchissent pacifiquement la frontière vers le Sahara.",
+    "meaning": "Mobilisation pacifique pour récupérer les provinces du Sud.",
+    "importance": "Moment de fierté nationale : elle symbolise l'unité et la cause de l'intégrité territoriale.",
+    "traditions": [
+      "Discours royal",
+      "Cérémonies et défilés dans les provinces du Sud",
+      "Drapeaux et chants patriotiques"
+    ],
+    "caption": "Foule en marche pacifique avec drapeaux et Coran.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Encyclopédie Britannica – Maroc",
+        "url": "https://www.britannica.com/place/Morocco"
+      }
+    ]
+  },
+  {
+    "slug": "fete-independance",
+    "name_fr": "Fête de l'Indépendance",
+    "name_ar": "عيد الاستقلال",
+    "type": "nationale",
+    "rule": {
+      "calendar": "gregorian",
+      "month": 11,
+      "day": 18,
+      "duration": 1
+    },
+    "emoji": "🇲🇦",
+    "color": "#d00000",
+    "image": "images/fete-independance.svg",
+    "origin": "Le 18 novembre 1955, après le retour d'exil de Mohammed V, l'indépendance est proclamée. Le Maroc l'obtient formellement en 1956 avec la fin du protectorat.",
+    "meaning": "Célébration de la liberté retrouvée et de la souveraineté du Maroc.",
+    "importance": "Fête nationale : elle honore le roi Mohammed V et les résistants.",
+    "traditions": [
+      "Discours royal",
+      "Drapeaux dans les rues et illuminations",
+      "Défilés, concerts et cérémonies"
+    ],
+    "caption": "Drapeau marocain : symbole de souveraineté.",
+    "sources": [
+      {
+        "title": "Portail national du Maroc (maroc.ma)",
+        "url": "https://www.maroc.ma"
+      },
+      {
+        "title": "Agence Marocaine de Presse (MAP)",
+        "url": "https://www.mapexpress.ma"
+      }
+    ]
+  },
+  {
+    "slug": "aid-al-fitr",
+    "name_fr": "Aïd al-Fitr",
+    "name_ar": "عيد الفطر",
+    "type": "religieuse",
+    "rule": {
+      "calendar": "hijri",
+      "month": 10,
+      "day": 1,
+      "duration": 2
+    },
+    "emoji": "🌙",
+    "color": "#40916c",
+    "image": "images/aid-al-fitr.svg",
+    "origin": "Fête instituée dans l'islam à la fin du mois de Ramadan, premier jour du mois de Chawwal. Le Maroc observe 1 à 2 jours fériés.",
+    "meaning": "Elle marque la fin du jeûne et exprime gratitude, partage et solidarité.",
+    "importance": "L'une des fêtes les plus importantes : les familles se réunissent. La date est fixée par l'observation du croissant, annoncée par les autorités religieuses.",
+    "traditions": [
+      "Zakat al-Fitr (aumône avant la prière de l'Aïd)",
+      "Prière de l'Aïd en plein air",
+      "Vêtements traditionnels (djellaba, caftan)",
+      "Gâteaux : sellou, briouates, chebakia"
+    ],
+    "caption": "Croissant de lune annonçant la fin du Ramadan.",
+    "sources": [
+      {
+        "title": "Ministère des Habous et des Affaires islamiques",
+        "url": "https://www.habous.gov.ma"
+      }
+    ]
+  },
+  {
+    "slug": "aid-al-adha",
+    "name_fr": "Aïd al-Adha (Aïd el-Kebir)",
+    "name_ar": "عيد الأضحى",
+    "type": "religieuse",
+    "rule": {
+      "calendar": "hijri",
+      "month": 12,
+      "day": 10,
+      "duration": 2
+    },
+    "emoji": "🐑",
+    "color": "#bc6c25",
+    "image": "images/aid-al-adha.svg",
+    "origin": "Fête qui commémore la soumission du prophète Ibrahim (Abraham), prêt à sacrifier son fils, remplacé par un bélier selon la tradition islamique. Elle tombe le 10 Dhou al-Hijja.",
+    "meaning": "Elle symbolise la foi, l'obéissance, la solidarité et le partage avec les plus démunis.",
+    "importance": "Fête familiale majeure et très suivie : elle rythme l'économie rurale et la vie sociale. L'annonce officielle dépend de l'observation lunaire.",
+    "traditions": [
+      "Prière de l'Aïd, puis sacrifice du mouton lorsque c'est pratiqué",
+      "Partage avec la famille et les voisins nécessiteux",
+      "Plats traditionnels : mechoui, boulfaf, tanjia",
+      "Visites familiales"
+    ],
+    "caption": "Illustration symbolique de la fête du sacrifice.",
+    "sources": [
+      {
+        "title": "Ministère des Habous et des Affaires islamiques",
+        "url": "https://www.habous.gov.ma"
+      }
+    ]
+  },
+  {
+    "slug": "nouvel-an-hegire",
+    "name_fr": "Nouvel An hégirien (1er Muharram)",
+    "name_ar": "فاتح محرم – رأس السنة الهجرية",
+    "type": "religieuse",
+    "rule": {
+      "calendar": "hijri",
+      "month": 1,
+      "day": 1,
+      "duration": 1
+    },
+    "emoji": "🕌",
+    "color": "#5e548e",
+    "image": "images/nouvel-an-hegire.svg",
+    "origin": "Il marque le début de l'année hégirienne, qui commence avec l'Hégire, la migration du prophète Mohammed de La Mecque à Médine (622).",
+    "meaning": "Occasion de recueillement, de réflexion et de renouveau spirituel.",
+    "importance": "Jour férié religieux : les dates sont déterminées par la lune.",
+    "traditions": [
+      "Vœux et visites en famille",
+      "Rappel de l'histoire de l'Hégire",
+      "Repas partagés"
+    ],
+    "caption": "Calendrier lunaire et mosquée.",
+    "sources": [
+      {
+        "title": "Ministère des Habous et des Affaires islamiques",
+        "url": "https://www.habous.gov.ma"
+      }
+    ]
+  },
+  {
+    "slug": "mawlid",
+    "name_fr": "Aïd al-Mawlid an-Nabawi",
+    "name_ar": "عيد المولد النبوي",
+    "type": "religieuse",
+    "rule": {
+      "calendar": "hijri",
+      "month": 3,
+      "day": 12,
+      "duration": 2
+    },
+    "emoji": "✨",
+    "color": "#0b6e4f",
+    "image": "images/mawlid.svg",
+    "origin": "Il commémore la naissance du prophète Mohammed le 12 Rabi' al-awwal. Au Maroc, il est observé avec un ou deux jours fériés.",
+    "meaning": "Fête de recueillement, de louanges au Prophète et de transmission des valeurs spirituelles.",
+    "importance": "Célébrée dans les zaouïas et les mosquées, avec des veillées de chants et des récitations.",
+    "traditions": [
+      "Récitations et chants religieux (madih, samaa)",
+      "Veillées dans les zaouïas",
+      "Couscous et pâtisseries à la maison",
+      "Bougies et henné pour les enfants (selon les régions)"
+    ],
+    "caption": "Lumières et mosquée pour la célébration du Mawlid.",
+    "sources": [
+      {
+        "title": "Ministère des Habous et des Affaires islamiques",
+        "url": "https://www.habous.gov.ma"
+      }
+    ]
+  }
+]

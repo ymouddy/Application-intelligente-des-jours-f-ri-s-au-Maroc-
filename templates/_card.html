@@ -1,0 +1,10 @@
+<a class="card" href="{{ url_for('detail', slug=h.slug, year=h.year) }}">
+  <img src="{{ url_for('static', filename=h.image) }}" alt="{{ h.caption }}" loading="lazy">
+  <div class="card-body">
+    <span class="badge {{ h.type }}">{{ h.type|capitalize }}</span>
+    <h3>{{ h.name_fr }}</h3>
+    <p class="ar" dir="rtl" lang="ar">{{ h.name_ar }}</p>
+    <p class="date">{{ h.dates_fr[0] }}{% if h.dates_fr|length > 1 %} (+{{ h.dates_fr|length - 1 }} jour){% endif %}</p>
+    {% if h.is_forecast %}<p class="forecast">⚠ Date prévisionnelle</p>{% endif %}
+  </div>
+</a>

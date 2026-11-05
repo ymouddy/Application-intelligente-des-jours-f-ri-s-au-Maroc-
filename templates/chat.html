@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Chatbot IA{% endblock %}
+{% block content %}
+<h1>🤖 Dalil, l'assistant des jours fériés</h1>
+<section class="panel">
+  <div class="row">
+    <select id="level">
+      <option value="simple">Niveau simple</option>
+      <option value="intermediaire">Niveau intermédiaire</option>
+      <option value="expert">Niveau expert</option>
+    </select>
+  </div>
+  <div id="chat-log" class="chat-log"></div>
+  <form id="chat-form" class="row">
+    <input id="chat-input" placeholder="Ex. : Quelle est la différence entre Aïd al-Fitr et Aïd al-Adha ?" autocomplete="off">
+    <button class="btn" type="submit">Envoyer</button>
+  </form>
+  <div class="chips">
+    <button class="chip">Pourquoi célèbre-t-on la Marche Verte ?</button>
+    <button class="chip">Fêtes nationales vs religieuses ?</button>
+    <button class="chip">Qu'est-ce que Yennayer ?</button>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>window.CHAT_CONFIG = { slug: null, year: {{ year }}, name: null };</script>
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+{% endblock %}

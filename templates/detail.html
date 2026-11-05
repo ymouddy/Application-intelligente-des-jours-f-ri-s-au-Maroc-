@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}{{ h.name_fr }}{% endblock %}
+{% block content %}
+<a href="{{ url_for('calendar', year=year) }}">← Retour au calendrier</a>
+<article class="detail">
+  <figure>
+    <img src="{{ url_for('static', filename=h.image) }}" alt="{{ h.caption }}">
+    <figcaption>{{ h.caption }}</figcaption>
+  </figure>
+  <h1>{{ h.name_fr }}</h1>
+  <p class="ar big" dir="rtl" lang="ar">{{ h.name_ar }}</p>
+  <p><span class="badge {{ h.type }}">{{ h.type|capitalize }}</span>
+     {% for d in h.dates_fr %}<span class="date">{{ d }}</span>{% endfor %}</p>
+  {% if h.is_forecast %}
+    <p class="notice">⚠ <strong>Date prévisionnelle</strong> : elle sera confirmée par l'annonce officielle après observation du croissant lunaire.</p>
+  {% endif %}
+
+  <h2>Origine historique</h2><p>{{ h.origin }}</p>
+  <h2>Signification</h2><p>{{ h.meaning }}</p>
+  <h2>Pourquoi est-elle importante au Maroc ?</h2><p>{{ h.importance }}</p>
+  <h2>Traditions et coutumes</h2>
+  <ul>{% for t in h.traditions %}<li>{{ t }}</li>{% endfor %}</ul>
+  <h2>Pour approfondir</h2>
+  <ul>{% for s in h.sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a></li>{% endfor %}</ul>
+
+  <section class="panel">
+    <h2>🤖 Expliquer avec l'IA</h2>
+    <div class="row">
+      <select id="level">
+        <option value="simple">Niveau simple</option>
+        <option value="intermediaire">Niveau intermédiaire</option>
+        <option value="expert">Niveau expert</option>
+      </select>
+      <button class="btn" id="explain-btn">Générer une explication</button>
+    </div>
+    <div id="chat-log" class="chat-log"></div>
+    <form id="chat-form" class="row">
+      <input id="chat-input" placeholder="Une question sur cette fête ?" autocomplete="off">
+      <button class="btn" type="submit">Envoyer</button>
+    </form>
+  </section>
+</article>
+{% endblock %}
+{% block scripts %}
+<script>window.CHAT_CONFIG = { slug: "{{ h.slug }}", year: {{ year }}, name: "{{ h.name_fr }}" };</script>
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+{% endblock %}
